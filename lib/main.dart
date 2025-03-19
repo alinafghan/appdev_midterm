@@ -164,8 +164,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
                             color: state is DarkModeTrue
-                                ? Colors.black
-                                : Colors.white,
+                                ? Colors.white
+                                : Colors.black,
                           ),
                         ),
                         SizedBox(
@@ -176,8 +176,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           'We are working very hard to bring you a great category browsing experience!',
                           style: TextStyle(
                             color: state is DarkModeTrue
-                                ? Colors.black
-                                : Colors.white,
+                                ? Colors.white
+                                : Colors.black,
                           ),
                         )
                       ],
