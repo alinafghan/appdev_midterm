@@ -119,8 +119,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
                             color: state is DarkModeTrue
-                                ? Colors.black
-                                : Colors.white,
+                                ? Colors.white
+                                : Colors.black,
                           ),
                         ),
                         SizedBox(
@@ -131,8 +131,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           'We\'re building an amazing profile experience for you to manage your account!',
                           style: TextStyle(
                             color: state is DarkModeTrue
-                                ? Colors.black
-                                : Colors.white,
+                                ? Colors.white
+                                : Colors.black,
                           ),
                         ),
                         SizedBox(
