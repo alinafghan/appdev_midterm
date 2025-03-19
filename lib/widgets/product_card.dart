@@ -81,7 +81,14 @@ class MyCard extends StatelessWidget {
                                 Icons.star,
                                 color: const Color.fromARGB(255, 207, 152, 81),
                               ),
-                              Text(product.rating.rate.toString()),
+                              Text(
+                                product.rating.rate.toString(),
+                                style: TextStyle(
+                                  color: state is DarkModeTrue
+                                      ? const Color.fromARGB(255, 241, 239, 241)
+                                      : const Color.fromARGB(255, 6, 6, 6),
+                                ),
+                              ),
                             ],
                           )
                         ],
