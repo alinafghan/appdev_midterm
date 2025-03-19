@@ -15,7 +15,7 @@ final class GetItemLoading extends GetItemState {
 }
 
 final class GetItemLoaded extends GetItemState {
-  final List<Item> item;
+  final List<Product> item;
 
   const GetItemLoaded({required this.item});
 
